@@ -1,10 +1,11 @@
-# Title (replace with your title)
+# Regex Tutorial - Email Matching
 
-Introductory paragraph (replace this with your text)
+In this tutorial, I will explain how to match email addresses using the following expression: 
+`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+A regular expression, or regex, is a set of characters that specify a pattern. Using a regex is mostly used to find patterns within a string, validation, or to find and replace characters. Below, we discuss the components of a regex and walk through how to apply it to matching email addresses. 
 
 ## Table of Contents
 
@@ -23,6 +24,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+If you want to search for a pattern that is at one end of the other, you use <em>anchors</em>. The anchors used here are <strong>"^"</strong> (the starting anchor) and <strong>"$"</strong> (the ending anchor). "^" is only an anchor if it exists in the beginning of an expression and "$" is only an anchor if it is at the end.
 
 ### Quantifiers
 
